@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Bell, Book, ChevronDown, GraduationCap, Layout, Library, Search, User, X } from "lucide-react"
+import { Bell, Book, ChevronDown, GraduationCap, Layout, Library, Search, User } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
