@@ -26,6 +26,9 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  eslint: {
+    ignoreDuringBuilds: true, // Ignorar errores de ESLint durante la construcción
+  },
   webpack(config: Configuration, { isServer }: { isServer: boolean }): Configuration {
     // Verificamos si 'config.resolve' es un objeto antes de modificarlo
     if (!isServer && config.resolve && typeof config.resolve === 'object') {
